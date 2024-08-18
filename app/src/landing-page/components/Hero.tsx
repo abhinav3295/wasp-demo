@@ -1,5 +1,6 @@
 import openSaasBanner from '../../client/static/open-saas-banner.png';
 import { DocsUrl } from '../../shared/common';
+import { Button } from '../../components/ui/button';
 
 export default function Hero() {
   return (
@@ -42,6 +43,9 @@ export default function Hero() {
               >
                 Get Started <span aria-hidden='true'>→</span>
               </a>
+            </div>
+            <div className="container">
+              <Button>This works</Button>
             </div>
           </div>
           <div className='mt-14 flow-root sm:mt-14 '>
