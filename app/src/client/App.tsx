@@ -1,6 +1,7 @@
 import { useAuth } from 'wasp/client/auth';
 import { updateCurrentUser } from 'wasp/client/operations';
 import './Main.css';
+import './shadcn.css';
 import AppNavBar from './components/AppNavBar';
 import CookieConsentBanner from './components/cookie-consent/Banner';
 import { useMemo, useEffect, ReactNode } from 'react';
